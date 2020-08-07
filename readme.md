@@ -184,11 +184,11 @@ git config --global credential.helper store
 
 查询是否有ssh密钥
 
+**ssh-keygen -t rsa -C '297956615@qq.com'**
 
+生成密钥，找到密钥所在文件夹，打开密钥文件id_rsa.pub,复制到github的sshKey中
 
-
-
-
+![image-20200807161229548](readme.assets/image-20200807161229548.png)
 
 
 
