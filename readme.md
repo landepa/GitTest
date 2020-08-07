@@ -133,9 +133,21 @@ git clone https://github.com/landepa/GitTest.git
 
 克隆项目，默认绑定远程仓库地址，可以 log 看到日志
 
-11113333
+## 分支操作
 
+### git branch branch1
 
+创建分支，分支名为：branch
+
+### git checkout branch
+
+切换到branch分支
+
+### git branch
+
+查看所有分支
+
+![image-20200807143131461](readme.assets/image-20200807143131461.png)
 
 
 
