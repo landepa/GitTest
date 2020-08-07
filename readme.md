@@ -2,10 +2,6 @@
 
 ## SVN与Git
 
-![img](https://s1.ax1x.com/2020/08/07/aWUty9.jpg)
-
-
-
 ![img](E:%5Cqf%5Cgit%5Creadme.assets%5C0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg)
 
 ## Git图解
