@@ -27,4 +27,6 @@
 
    ![image-20200807100617942](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807100617942.png)
 
-4. 
+4. **git commit -m '备注'**
+
+   将文件提交到本地仓库
