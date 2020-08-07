@@ -2,6 +2,8 @@
 
 ## SVN与Git
 
+
+
 ![img](E:%5Cqf%5Cgit%5Creadme.assets%5C0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg)
 
 ## Git图解
@@ -75,6 +77,14 @@ Git区域主要分为：工作区——暂存区——本地仓库
 
 删除readme文件
 
+## q / #wq
+
+退出编辑模式
+
+
+
+
+
 ## 远程仓库操作
 
 ### git remote add
@@ -102,22 +112,26 @@ Git区域主要分为：工作区——暂存区——本地仓库
 
 **git push -u origin master**
 
-第一次需设置默认仓库及分支
+==第一次需设置默认仓库及分支==
 
 **git push**
 
-第一次之后可以直接push
+之后可以直接push
 ## git pull
 
+拉取远程仓库的代码到本地
+
+==先提交本地仓库代码再拉取==
+
+![image-20200807114209783](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807114209783.png)
 
 
 
+## git clone
 
+git clone https://github.com/landepa/GitTest.git
 
-
-
-
-
+克隆项目，默认绑定远程仓库地址，可以 log 看到日志
 
 
 
