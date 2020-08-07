@@ -108,6 +108,14 @@ git config --global credential.helper store
 
 ![image-20200807111408669](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807111408669.png)
 
+### git remove rm origin
+
+删除连接的远程仓库地址，名为origin
+
+**更换地址需先删除再添加**
+
+![image-20200807160128474](readme.assets/image-20200807160128474.png)
+
 ### git push
 
 本地仓库提交到远程仓库
@@ -169,6 +177,12 @@ git config --global credential.helper store
 ### git push origin branch
 
 将分支内容推送到远程仓库的分支中
+
+## SSHKey
+
+### cd ~/.ssh
+
+查询是否有ssh密钥
 
 
 
