@@ -151,6 +151,7 @@ Git区域主要分为：工作区——暂存区——本地仓库
 
 ### git branch -d branch1
 
+删除分支名为branch1的分支
 
 
 ### git merge branch1
@@ -161,7 +162,7 @@ Git区域主要分为：工作区——暂存区——本地仓库
 
 ![image-20200807143934946](readme.assets/image-20200807143934946.png)
 
-111111
+
 
 
 
