@@ -71,7 +71,9 @@
 
 **git reset --hard 2e248b2：**回退到指定版本
 
+### rm readme.md
 
+删除readme文件
 
 ## 远程仓库操作
 
@@ -96,13 +98,19 @@
 
 ### git push
 
+本地仓库提交到远程仓库
+
 **git push -u origin master**
 
 第一次需设置默认仓库及分支
 
+**git push**
+
+第一次之后可以直接push
 
 
-本地仓库提交到远程仓库
+
+
 
 
 
