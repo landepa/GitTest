@@ -190,9 +190,13 @@ git config --global credential.helper store
 
 ![image-20200807161229548](readme.assets/image-20200807161229548.png)
 
+## .gitignore
 
+忽略列表
 
+创建.gitignore文件，将不需要提交到github的文件写在`.gitignore`文件中
 
+![image-20200807163745785](readme.assets/image-20200807163745785.png)
 
 
 
