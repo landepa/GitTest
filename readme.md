@@ -17,7 +17,7 @@
 3. github创建远程仓库
 4. git指令在本地初始化
 
-## 操作指令
+## 本地操作指令
 
 ### **git init**	
 
@@ -52,3 +52,27 @@
 **git reflog：**查看操作日志（简易版）
 
 ![image-20200807102429282](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807102429282.png)
+
+### git diff readme.md
+
+查看工作区修改的内容
+
+
+
+
+
+
+
+
+
+
+
+### git reset --hard HEAD^
+
+回退到上一版本
+
+**git reset --hard HEAD^^：**回退两个版本
+
+![image-20200807104414265](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807104414265.png)
+
+**git reset --hard 2e248b2：**回退到指定版本
