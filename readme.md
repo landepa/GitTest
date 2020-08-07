@@ -129,7 +129,7 @@ Git区域主要分为：工作区——暂存区——本地仓库
 
 ## git clone
 
-git clone https://github.com/landepa/GitTest.git
+**git clone https://github.com/landepa/GitTest.git**
 
 克隆项目，默认绑定远程仓库地址，可以 log 看到日志
 
@@ -139,9 +139,9 @@ git clone https://github.com/landepa/GitTest.git
 
 创建分支，分支名为：branch
 
-### git checkout branch
+### git checkout branch1
 
-切换到branch分支
+切换到branch1分支
 
 ### git branch
 
@@ -149,11 +149,19 @@ git clone https://github.com/landepa/GitTest.git
 
 ![image-20200807143131461](readme.assets/image-20200807143131461.png)
 
+### git branch -d branch1
 
 
 
+### git merge branch1
 
+在主干上合并分支名为branch1的分支
 
+==分支上的内容提交到本地后，需切换到主分支（master）后，再合并分支（分支名为：branch1）==
+
+![image-20200807143934946](readme.assets/image-20200807143934946.png)
+
+111111
 
 
 
