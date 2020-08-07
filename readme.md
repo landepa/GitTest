@@ -6,7 +6,7 @@
 
 ## Git图解
 
-主要分为：工作区——暂存区——本地仓库
+Git区域主要分为：工作区——暂存区——本地仓库
 
 ![git-repo](E:%5Cqf%5Cgit%5Creadme.assets%5C0)
 
@@ -107,6 +107,7 @@
 **git push**
 
 第一次之后可以直接push
+## git pull
 
 
 
