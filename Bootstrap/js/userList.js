@@ -1,7 +1,7 @@
 // 加载首页数据
 $.ajax({
-    url:
-    type:
+    url:'./userList.php',
+    type:'get',
     data:{
         type:'page',
         page:1,
