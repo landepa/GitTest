@@ -21,7 +21,7 @@ git config --global credential.helper store
 
 ![image-20200807151555398](readme.assets/image-20200807151555398.png)
 
-## 本地操作指令
+## 本地操作
 
 ### **git init**	
 
@@ -79,7 +79,7 @@ git config --global credential.helper store
 
 删除readme文件
 
-## q / #wq
+### q / #wq
 
 退出编辑模式
 
@@ -87,7 +87,7 @@ git config --global credential.helper store
 
 
 
-## 远程仓库操作
+## 远程操作
 
 ### git remote add
 
@@ -127,7 +127,7 @@ git config --global credential.helper store
 **git push**
 
 之后可以直接push
-## git pull
+### git pull
 
 拉取远程仓库的代码到本地
 
@@ -137,7 +137,7 @@ git config --global credential.helper store
 
 
 
-## git clone
+### git clone
 
 **git clone https://github.com/landepa/GitTest.git**
 
@@ -192,7 +192,7 @@ git config --global credential.helper store
 
 ## .gitignore
 
-忽略列表
+忽略列表，列在其中的文件不会被上传到远程仓库中
 
 创建.gitignore文件，将不需要提交到github的文件写在`.gitignore`文件中
 
