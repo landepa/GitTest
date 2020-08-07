@@ -2,8 +2,6 @@
 
 ## SVN与Git
 
-
-
 ![img](E:%5Cqf%5Cgit%5Creadme.assets%5C0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg)
 
 ## Git图解
@@ -18,6 +16,10 @@ Git区域主要分为：工作区——暂存区——本地仓库
 2. git下载，安装
 3. 在github创建远程仓库
 4. git指令在本地初始化
+
+git config --global credential.helper store
+
+![image-20200807151555398](readme.assets/image-20200807151555398.png)
 
 ## 本地操作指令
 
@@ -164,7 +166,9 @@ Git区域主要分为：工作区——暂存区——本地仓库
 
 
 
+### git push origin branch
 
+将分支内容推送到远程仓库的分支中
 
 
 
