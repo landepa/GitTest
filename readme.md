@@ -2,7 +2,7 @@
 
 ## SVN与Git
 
-![aWUty9.jpg](![img](https://s1.ax1x.com/2020/08/07/aWUty9.jpg)
+![img](https://s1.ax1x.com/2020/08/07/aWUty9.jpg)
 
 
 
