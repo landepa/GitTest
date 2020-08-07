@@ -14,7 +14,7 @@
 
 1. github注册，登录
 2. git下载，安装
-3. github创建远程仓库
+3. 在github创建远程仓库
 4. git指令在本地初始化
 
 ## 本地操作指令
@@ -29,7 +29,9 @@
 
 ### **git add .**	
 
-提交所有新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件，没有任何提示表明提交成功
+提交所有新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件，没有任何提示时，说明提交成功
+
+![image-20200807105931083](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807105931083.png)
 
 ### **git  status**
 
@@ -55,17 +57,9 @@
 
 ### git diff readme.md
 
-查看工作区修改的内容
+查看工作区修改的内容，查看文件变更的信息
 
-
-
-
-
-
-
-
-
-
+![image-20200807105728626](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807105728626.png)
 
 ### git reset --hard HEAD^
 
@@ -76,3 +70,77 @@
 ![image-20200807104414265](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807104414265.png)
 
 **git reset --hard 2e248b2：**回退到指定版本
+
+
+
+## 远程仓库操作
+
+### git remote add
+
+**git remote add origin https://github.com/landepa/GitTest.git**
+关联远程仓库，无提示说明连接成功
+
+**origin代指远程仓库名称**
+
+![image-20200807111443046](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807111443046.png)
+
+### git remote -v
+
+查看关联的远程仓库地址
+
+**fetch：**拉取
+
+**push：**推送
+
+![image-20200807111408669](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807111408669.png)
+
+### git push
+
+**git push -u origin master**
+
+第一次需设置默认仓库及分支
+
+
+
+本地仓库提交到远程仓库
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
