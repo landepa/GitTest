@@ -1,14 +1,22 @@
 # Git使用教程
 
+[TOC]
+
+
+
 ## SVN与Git
 
 ![img](E:%5Cqf%5Cgit%5Creadme.assets%5C0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg)
+
+
 
 ## Git图解
 
 Git区域主要分为：工作区——暂存区——本地仓库
 
 ![git-repo](E:%5Cqf%5Cgit%5Creadme.assets%5C0)
+
+
 
 ## 基本流程
 
@@ -21,9 +29,11 @@ git config --global credential.helper store
 
 ![image-20200807151555398](readme.assets/image-20200807151555398.png)
 
+
+
 ## 本地操作
 
-### **git init**	
+### git init	
 
 把当前目录初始化为一个版本库
 
@@ -31,19 +41,19 @@ git config --global credential.helper store
 
 ![image-20200807095953006](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807095953006.png)
 
-### **git add .**	
+### git add .
 
 提交所有新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件，没有任何提示时，说明提交成功
 
 ![image-20200807105931083](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807105931083.png)
 
-### **git  status**
+### git  status
 
 查看当前工作目录和暂缓区状态
 
 ![image-20200807100617942](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807100617942.png)
 
-### **git commit -m 'remarks'**
+### git commit -m 'remarks'
 
 将暂存区的文件提交到本地仓库
 
@@ -82,8 +92,6 @@ git config --global credential.helper store
 ### q / #wq
 
 退出编辑模式
-
-
 
 
 
@@ -141,7 +149,9 @@ git config --global credential.helper store
 
 **git clone https://github.com/landepa/GitTest.git**
 
-克隆项目，默认绑定远程仓库地址，可以 log 看到日志
+克隆项目，默认绑定了该远程仓库地址，可以 log 看到操作日志
+
+
 
 ## 分支操作
 
@@ -155,7 +165,7 @@ git config --global credential.helper store
 
 ### git branch
 
-查看所有分支
+查看所有分支，*会显示在当前所在分支
 
 ![image-20200807143131461](readme.assets/image-20200807143131461.png)
 
@@ -174,9 +184,11 @@ git config --global credential.helper store
 
 
 
-### git push origin branch
+### git push origin branch1
 
-将分支内容推送到远程仓库的分支中
+将分支内容推送到远程仓库的分支中，分支名为branch1
+
+
 
 ## SSHKey
 
