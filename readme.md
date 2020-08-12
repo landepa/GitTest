@@ -6,17 +6,13 @@
 
 ## SVN与Git
 
-![img](E:%5Cqf%5Cgit%5Creadme.assets%5C0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg)
-
-
+![0D32F290-80B0-4EA4-9836-CA58E22569B3](readme.assets/0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg)
 
 ## Git图解
 
 Git区域主要分为：工作区——暂存区——本地仓库
 
-![git-repo](E:%5Cqf%5Cgit%5Creadme.assets%5C0)
-
-
+![git-repo](readme.assets/git.png)
 
 ## 基本流程
 
@@ -37,9 +33,9 @@ git config --global credential.helper store
 
 把当前目录初始化为一个版本库
 
-![image-20200807095926171](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807095926171.png)
+![image-20200807095926171](readme.assets/image-20200807095926171.png)
 
-![image-20200807095953006](E:%5Cqf%5Cgit%5Creadme.assets%5Cimage-20200807095953006.png)
+![image-20200807095953006](readme.assets/image-20200807095953006.png)
 
 ### git add .
 
